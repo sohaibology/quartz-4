@@ -3,13 +3,13 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "sohaibology",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "four.quartz.jzhao.xyz",
+    baseUrl: "quartz.sohaibology.xyz",
     ignorePatterns: ["private", "templates"],
     theme: {
       typography: {
