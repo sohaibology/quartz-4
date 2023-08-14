@@ -13,4 +13,4 @@ enableToc: false
 
 ---
 
-If you found this content helpful and want to support my work, please consider [buying me a coffee](https://bmc.link/sohaibology).
+If you find my content helpful, please consider [buying me a coffee](https://bmc.link/sohaibology).
