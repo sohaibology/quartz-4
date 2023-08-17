@@ -18,11 +18,14 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta(), Component.TagList()],
   left: [
     Component.PageTitle(),
+    Component.Search(),
     Component.MobileOnly(Component.Spacer()),
     Component.Darkmode(),
     Component.DesktopOnly(Component.TableOfContents()),
   ],
-  right: [ Component.Search(),Component.Backlinks()],
+  right: [
+    Component.Backlinks()
+  ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
